@@ -9,7 +9,7 @@ If you don't have libreoffice or unolibs by default, execute this to install all
 ## How to use
 Startup libreoffice  
 ```soffice --accept='socket,host=localhost,port=8100;urp;StarOffice.Service'```  
-Use the UnoTagger library in a seperate terminal  
+Use the UnoTagger library in your project or in a seperate terminal
 ```
 >>> import tagger
 >>> tagger.create_tag_document()
