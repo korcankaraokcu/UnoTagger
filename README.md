@@ -11,7 +11,7 @@ Startup libreoffice
 ```soffice --accept='socket,host=localhost,port=8100;urp;StarOffice.Service'```  
 Use the UnoTagger library in your project or in a seperate terminal
 ```
->>> import tagger
+>>> import unotagger
 >>> tagger.create_tag_document()
 ```
 CONTENT UPCOMING
