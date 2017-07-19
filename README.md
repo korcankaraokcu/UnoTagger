@@ -3,7 +3,7 @@ A simple tagging library for documenting python scripts
 
 ## How to install
 UnoTagger only requires unotools, assuming that you already have libreoffice installed:  
-```pip3 install unotools```  
+```sudo pip3 install unotools```  
 If you don't have libreoffice or unolibs by default, execute this to install all the required tools from scratch:  
 ```sudo aptitude install -y libreoffice libreoffice-script-provider-python uno-libs3 python3-uno python3```
 ## How to use
