@@ -99,3 +99,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# UnoTagger specific
+*.doc
+*.html
+*.odt
+*.pdf
+.idea/*
+*.directory
