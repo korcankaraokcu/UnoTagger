@@ -18,4 +18,4 @@ Run this command for demonstration:
  - Ability to search through function names
  - Can document variables (check ```unotagger.get_comments_of_variables()``` function for more information)
 ### Cons
- - Can only tag functions and variables in a module. Doesn't support classes or inline functions. This can be achieved by rewriting the ```unotagger.get_docstrings()``` function to be recursive
+ - Can only tag functions and variables in a module. Doesn't support classes or inline functions since it iterates on ```dir(module)``` only once. Iteration on demand can be achieved by modifying the functions in unotagger.py slightly. You can also choose to create a generator out of them.
